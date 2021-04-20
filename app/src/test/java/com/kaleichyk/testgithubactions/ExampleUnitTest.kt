@@ -17,7 +17,6 @@ class ExampleUnitTest {
     @Test
     fun test() {
         assertEquals(4, 2 + 0)
-        assertEquals(4, 2 + 8)
     }
 
 }
