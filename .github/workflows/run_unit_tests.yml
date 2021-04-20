@@ -17,7 +17,7 @@ jobs:
       - name: Run unit tests
         run: bash ./gradlew test
 
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: Reports about errors
       - run: mkdir -p app/build/reports/tests/testDebugUnitTest
 
