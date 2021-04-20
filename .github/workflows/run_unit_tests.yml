@@ -19,7 +19,7 @@ jobs:
 
       - name: Reports about errors
       - uses: actions/checkout@v2
-      - run: mkdir -p app/build/reports/tests/testDebugUnitTest/index.html
+      - run: mkdir -p app/build/reports/tests/testDebugUnitTest
 
       - run: echo file:///home/runner/work/TestGithubActions/TestGithubActions/app/build/reports/tests/testDebugUnitTest/index.html > app/build/reports/tests/testDebugUnitTest/index.html
 
