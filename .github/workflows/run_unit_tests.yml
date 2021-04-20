@@ -5,8 +5,9 @@ on:
     branches: [ master ]
 
 jobs:
-  name: Run unit tests on PR in main
-  runs-on: ubuntu-latest
+  test:
+    name: Run unit tests on PR in main
+    runs-on: ubuntu-latest
 
   steps:
     - uses: actions/checkout@v2
