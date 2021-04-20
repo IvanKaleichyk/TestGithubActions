@@ -2,13 +2,12 @@ name: PR_unit_tests
 
 on:
   pull_request:
-    branches:
-    - 'master'
+    branches: [ master ]
 
 jobs:
   Unit-test:
   name: Run unit tests on PR in main
-  runs-on: ubuntu-20.04
+  runs-on: ubuntu-latest
 
   steps:
     - uses: actions/checkout@v2
