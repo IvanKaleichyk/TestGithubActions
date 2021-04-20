@@ -17,8 +17,8 @@ jobs:
       - name: Run unit tests
         run: bash ./gradlew test
 
-      - name: Reports about errors
       - uses: actions/checkout@v2
+      - name: Reports about errors
       - run: mkdir -p app/build/reports/tests/testDebugUnitTest
 
       - run: echo file:///home/runner/work/TestGithubActions/TestGithubActions/app/build/reports/tests/testDebugUnitTest/index.html > app/build/reports/tests/testDebugUnitTest/index.html
