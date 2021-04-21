@@ -2,7 +2,7 @@ name: Build Artifact on Release
 
 on:
   push:
-    branches: [ master,  ]
+    branches: [ master, release/main ]
 
 jobs:
   build_apk_aab:
