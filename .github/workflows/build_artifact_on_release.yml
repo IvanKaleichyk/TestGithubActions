@@ -1,8 +1,7 @@
 name: Build Artifact on Release
 
-on:
-  push:
-    branches: [ main ]
+on: push
+#    branches: [ main ]
 
 jobs:
   build_apk_aab:
