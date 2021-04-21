@@ -26,6 +26,7 @@ jobs:
         with:
           name: app-release.apk
 #          path: app/build/outputs/apk/release/app-release-unsigned.apk
+#          path: app/build/outputs/apk/release/app-release-unsigned.apk
           path: release/app-release-unsigned.apk
 
       - name: Upload AAB Bundle
